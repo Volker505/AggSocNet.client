@@ -1,0 +1,54 @@
+.centerDiv{
+  width: 100%;
+  height: 85%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  .auth-card{
+    width:620px;
+    //height:250px;
+    position:absolute;
+    margin: auto;
+    .textCentr{
+      .example-form {
+        padding-top: 10px;
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+      }
+      .example-full-width {
+        width: 100%;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+
+.mat-raised-button{
+   width: 100%;
+ }
+.blockButtonInit{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  .button-soc-net{
+    flex-grow: 1;
+  }
+}
+
+

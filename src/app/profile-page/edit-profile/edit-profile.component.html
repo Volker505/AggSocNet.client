@@ -1,0 +1,63 @@
+<mat-card>
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Редактирование профиля" disabled
+             value="Заполните только те поля которые хотите изменить">
+    </mat-form-field>
+
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field color="accent" class="example-full-width">
+            <input matInput placeholder="Имя" >
+            <!--[(ngModel)]="ferstName"-->
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field color="accent" class="example-full-width">
+            <input matInput placeholder="Фамилия" >
+            <!--[(ngModel)]="lastName"-->
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+
+    <p>
+      <mat-form-field color="accent" class="example-full-width">
+        <input matInput placeholder="email/login" >
+        <!--[(ngModel)]="email"-->
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="accent" class="example-full-width">
+        <input matInput type="password" placeholder="Пароль" >
+        <!--[(ngModel)]="password"-->
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="accent" class="example-full-width">
+        <input matInput type="password" placeholder="Повтор пароля" >
+        <!--[(ngModel)]="passwordReplay"-->
+      </mat-form-field>
+    </p>
+
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field color="accent" class="example-full-width">
+            <input matInput placeholder="Город" >
+            <!--[(ngModel)]="city"-->
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field color="accent" class="example-full-width">
+            <input matInput placeholder="Пол" >
+            <!--[(ngModel)]="sex"-->
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <button mat-raised-button color="accent" class="change()">Изменить</button>
+</mat-card>

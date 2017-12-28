@@ -1,0 +1,15 @@
+<mat-tab-group color="accent" class="common-main">
+  <mat-tab label="ChatASN">
+    <div class="main">
+      <app-chat class="chat1"></app-chat>
+      <app-sidebar [token]="tokenVk" class="sidebar1"></app-sidebar>
+    </div>
+  </mat-tab>
+  <mat-tab label="VK">
+    <div class="main">
+      <app-chat class="chat1"></app-chat>
+      <app-sidebar [token]="" class="sidebar1"></app-sidebar>
+    </div>
+  </mat-tab>
+</mat-tab-group>
+

@@ -1,0 +1,24 @@
+.mat-button{
+  height: 100%;
+  width: 10%;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.user-valid{
+  height: 100%;
+  width: 10%;
+  .mat-button{
+    width: 100%;
+  }
+}
+
+.flax-container{
+  display: flex;
+  margin: auto;
+}

@@ -1,0 +1,25 @@
+<div class="common-sideBar">
+
+  <mat-card class="sideBar">
+    <mat-tab-group color="accent" calss="tab-chat-frend">
+      <mat-tab label="Чаты">
+
+        <mat-list>
+          <button mat-button color="accent" *ngFor="let friend of mainPageService.friends">
+            <mat-list-item>
+              <img matListAvatar src={{friend.photo_50}}>
+              <h3 matLine>{{friend.first_name}} {{friend.last_name}}</h3>
+              <p matLine>
+                <span class="init">От кого:</span>
+                <span class="demo-2">текст сообщения</span>
+              </p>
+            </mat-list-item>
+          </button>
+        </mat-list>
+
+      </mat-tab>
+      <mat-tab label="Друзья" color="accent">
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card>
+</div>

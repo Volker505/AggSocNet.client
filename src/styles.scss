@@ -1,0 +1,9 @@
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./custome-theme";
+*{
+  margin: 0;
+  padding: 0;
+}
+.mat-tab-label{
+  height: 40px;
+}

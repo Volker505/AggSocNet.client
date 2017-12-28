@@ -1,0 +1,27 @@
+.common-div-chat {
+  padding-left: 20px;
+  .chat {
+    padding: 1px;
+    width: 900px;
+    margin: 10px auto;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    .chat-list {
+      padding: 1px;
+    }
+  }
+}
+
+.input-messeg {
+  width: 892px;
+  margin: 10px auto;
+  padding: 5px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  .mat-form-field {
+    width: 100%;
+    padding-right: 10px;
+  }
+}

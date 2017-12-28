@@ -1,0 +1,40 @@
+.common-profile{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto;
+  .infomation-user{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    .heder-primary{
+      display: inline-flex;
+      .user-photo{
+      }
+      .userNmae{
+        font-size: 28px;
+        padding-left: 10px;
+      }
+    }
+    .info-div{
+      font-size: 12px;
+      padding-top: 65px;
+      padding-left: 20px;
+    }
+  }
+  .separator{
+    height:20px;
+  }
+
+  .infomation-activ-socnet{
+    display: flex;
+    flex-direction: column;
+    h2{
+      font-size: 19px;
+    }
+    .connectSocNet{
+      display: flex;
+    }
+  }
+
+}

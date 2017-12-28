@@ -1,0 +1,16 @@
+.common-main {
+  padding-left: 10px;
+  padding-right: 10px;
+  .main {
+    display: flex;
+    .sidebar1{
+      flex-grow: 1;
+    }
+    .chat1{
+      flex-grow: 10;
+    }
+  }
+}
+.mat-tab-label{
+  height: 35px;
+}

@@ -1,0 +1,46 @@
+.common-sideBar {
+  .sideBar {
+    width: 320px;
+    //height: 540px;
+    height: 571px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    .init{
+      font-size: 14px;
+      color: #E0E0E0;
+    }
+    .demo-2{
+      font-size: 14px;
+      color: #E0E0E0;
+    }
+    .tab-chat-frend {
+      padding: 10px;
+    }
+    .mat-button{
+      width: 300px;
+      padding: 0px;
+    }
+    .mat-list-itemM {
+      height: 60px;
+      .itemUser {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        .div_user_foto {
+          display: flex;
+          align-content: center;
+          .user-photo {
+            border-radius: 50px 50px;
+          }
+
+        }
+        .blockName {
+          display: flex;
+        }
+      }
+    }
+    padding: 5px;
+
+  }
+}

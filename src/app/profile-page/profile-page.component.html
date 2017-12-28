@@ -1,0 +1,27 @@
+<div class="common-profile">
+
+  <mat-card class="infomation-user">
+    <header class="heder-primary">
+      <img class="user-photo" src={{foto}}>
+      <h1 class="userNmae">{{firstName}} {{lastName}}</h1>
+      <div class="info-div">
+        <h2>eMail/логин: {{email}}</h2>
+        <h2>Город: {{city}}</h2>
+        <h2>Пол: {{sex}}.</h2>
+      </div>
+    </header>
+  </mat-card>
+
+  <span class="separator"></span>
+
+  <mat-card class="infomation-activ-socnet">
+    <h2>Подключенные социальные сети</h2>
+    <div class="connectSocNet">
+      <button mat-button color="accent" disabled class="button-edit">Telegram</button>
+      <button mat-button color="accent" class="button-edit">VK</button>
+      <button mat-button color="accent" disabled class="button-edit">Facebook</button>
+    </div>
+    <button mat-button color="accent" (click)="editProfil()">Редактировать профиль</button>
+  </mat-card>
+
+</div>

@@ -1,0 +1,13 @@
+<mat-toolbar color="accent">
+  <button mat-button color="">AggregateSocNet</button>
+  <span class="example-spacer"></span>
+  <button mat-button (click)="entrance()" *ngIf="userStatus">Войти</button>
+  <div *ngIf="!userStatus" class="user-valid">
+    <button mat-button [matMenuTriggerFor]="menu">{{toolBarMenu}}</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="openChats()">Чаты</button>
+      <button mat-menu-item (click)="openProfile()">Профиль</button>
+      <button mat-menu-item (click)="openExit()">Выйти</button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,26 @@
+<div class="centerDiv">
+  <div class="auth-card">
+    <mat-card class="textCentr">
+      <h2>Вход и регистрация</h2>
+      <p>Для входа можно воспользуйтесь одной из социальных сетей.</p>
+      <p>Или зарегистрироваться введя логин и пароль</p>
+
+      <form class="example-form" [formGroup]="authForm">
+        <mat-form-field class="example-full-width" color="accent">
+          <input matInput placeholder="Логин/email" formControlName="login">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" color="accent">
+          <input matInput type="password" placeholder="Пароль" formControlName="password">
+        </mat-form-field>
+      </form>
+
+      <button mat-raised-button color="accent" (click)="connectToSocNetLogPss()">Вход</button>
+
+      <div class="blockButtonInit">
+        <button mat-button color="accent" disabled (click)="connectToSocNet()" class="button-soc-net">Telegram</button>
+        <button mat-button color="accent" disabled (click)="connectToSocNet()" class="button-soc-net">Facebook</button>
+        <button mat-button color="accent" (click)="connectToSocNetVk()" class="button-soc-net">VK</button>
+      </div>
+    </mat-card>
+  </div>
+</div>
